@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    padding:20px;
+
+}
+
+
+.logo-docplanner{
+    width:230px;
+}
+.links-container{
+    display: flex;
+}
+.link{
+    margin-left:50px;
+    position:relative;
+}
+.link:hover{
+    color:rgb(0, 202, 0);
+    cursor: pointer;
+
+}
+li{
+    list-style: none;
+}
+.dropdown{
+    display: none;
+}
+.link:hover .dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width:200px;
+    padding:10px;
+    left:-65px;
+}
+.dropdown-link{
+    margin-top:10px;
+    color:black;
+}
+.dropdown-link:hover{
+    color:rgb(0, 202, 0);
+}
